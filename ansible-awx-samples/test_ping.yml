@@ -1,0 +1,6 @@
+
+- name: Test Ping Sample
+  hosts: all
+  tasks:
+    - name: test connection
+      ping:
