@@ -1,22 +1,22 @@
 - name: Test Ping Sample
   hosts: all
   tasks:
-    - name: test connection
-      ping:
-      tags: 
+    - ping:
+        name: test1 connection      
+      tags : 
         - test1
 
-    - name: test2 connection
-      ping:
-      tags: 
+    - ping:
+        name: test2 connection      
+      tags : 
         - test2
 
-    - name: test3 connection
-      ping:
-      tags: 
+    - ping:
+        name: test3 connection      
+      tags : 
         - test3
 
-    - name: test4 connection
-      ping:
-      tags: 
+    - ping:
+        name: test4 connection      
+      tags : 
         - test4
