@@ -1,8 +1,7 @@
 - name: Test Ping Sample
   hosts: all
   tasks:
-    - ping:
-        data: crash
-        name: test1 connection      
+    - name: test1 connection 
+      shell: "hostname"     
       tags : 
         - test1
