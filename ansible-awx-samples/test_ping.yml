@@ -2,21 +2,7 @@
   hosts: all
   tasks:
     - ping:
+        data: crash
         name: test1 connection      
       tags : 
         - test1
-
-    - ping:
-        name: test2 connection      
-      tags : 
-        - test2
-
-    - ping:
-        name: test3 connection      
-      tags : 
-        - test3
-
-    - ping:
-        name: test4 connection      
-      tags : 
-        - test4
