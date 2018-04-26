@@ -3,12 +3,20 @@
   tasks:
     - name: test connection
       ping:
+      tags: 
+        - test1
 
     - name: test2 connection
       ping:
+      tags: 
+        - test2
 
     - name: test3 connection
       ping:
+      tags: 
+        - test3
 
     - name: test4 connection
       ping:
+      tags: 
+        - test4
