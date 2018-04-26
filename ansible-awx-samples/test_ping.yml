@@ -9,3 +9,6 @@
 
     - name: test3 connection
       ping:
+
+    - name: test4 connection
+      ping:
