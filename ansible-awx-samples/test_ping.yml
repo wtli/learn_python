@@ -1,5 +1,5 @@
 - name: Test Ping Sample
-  hosts: all
+  hosts: sping
   tasks:
     - name: test connection
       ping:
