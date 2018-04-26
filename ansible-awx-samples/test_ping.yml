@@ -3,3 +3,9 @@
   tasks:
     - name: test connection
       ping:
+
+    - name: test2 connection
+      ping:
+
+    - name: test3 connection
+      ping:
